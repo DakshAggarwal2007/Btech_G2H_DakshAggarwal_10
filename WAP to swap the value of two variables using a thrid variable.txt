@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+    float a,b,c;
+    printf("Enter the value of a:\n");
+    scanf("%f",&a);
+    printf("Enter the value of b:\n");
+    scanf("%f",&b);
+    c=a;
+    a=b;
+    b=c;
+    printf("The value of a is:%f\n",a);
+    printf("The value of b is:%f\n",b);
+    return 0;
+}
