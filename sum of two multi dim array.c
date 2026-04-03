@@ -12,7 +12,11 @@ int main() {
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
             scanf("%d",&a[i][j]);
-            scanf("%d",&b[i][j]);
+        }
+    }
+    for(int q=0;q<n;q++){
+        for(int w=0;w<m;w++){
+            scanf("%d",&b[q][w]);
         }
     }
     for(int g=0;g<n;g++){
@@ -22,6 +26,11 @@ int main() {
     }
     for(int k=0;k<n;k++){
         for(int l=0;l<m;l++){
+            printf("c[%d][%d]=%d\n;",k,l,c[k][l]);
+        }
+    }
+    return 0;
+}
             printf("c[%d][%d]=%d\n;",k,l,c[k][l]);
         }
     }
